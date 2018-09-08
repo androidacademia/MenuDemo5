@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="login.com.girish.menudemo.MainActivity">
+    <item
+        android:id="@+id/action_copy"
+        android:orderInCategory="100"
+        android:title="@string/action_copy"
+        android:icon="@drawable/ic_action_copy"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="110"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_settings"
+        app:showAsAction="always" />
+
+    <item
+        app:showAsAction="ifRoom"
+        android:id="@+id/action_paste"
+        android:orderInCategory="101"
+        android:title="@string/action_paste" />
+
+    <item
+        app:showAsAction="ifRoom"
+        android:orderInCategory="101"
+        android:title="@string/action_courses" >
+    <menu>
+        <item
+            android:id="@+id/action_android"
+            android:orderInCategory="101"
+            android:title="@string/action_android" />
+        <item
+            android:id="@+id/action_arduino"
+            android:orderInCategory="101"
+            android:title="@string/action_arduino" />
+    </menu>
+    </item>
+
+</menu>
